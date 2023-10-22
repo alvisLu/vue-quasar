@@ -1,7 +1,12 @@
 <template>
   <div>
     <div class="q-pa-md q-gutter-sm">
-      <q-btn color="white" text-color="black" label="Standard" />
+      <q-btn
+        color="white"
+        text-color="black"
+        label="Standard"
+        @click="standardBtn"
+      />
       <q-btn color="primary" label="Primary" />
       <q-btn color="secondary" label="Secondary" />
       <q-btn color="amber" glossy label="Amber" />
@@ -26,6 +31,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const standardBtn = () => {
+  console.log("Standard btn");
+};
+</script>
 
 <style scoped></style>
