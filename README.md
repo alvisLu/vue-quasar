@@ -82,3 +82,6 @@ $ yarn add -D @quasar/vite-plugin sass@1.32.12
 
     app.mount("#app");
     ```
+
+- 使用 vue plugin
+  ref: [https://vuejs.org/guide/reusability/plugins.html](https://vuejs.org/guide/reusability/plugins.html)
